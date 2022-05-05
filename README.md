@@ -1,2 +1,9 @@
 # sign-language-translator
-A react.js application that uses tensorflow object detection model and a speech to text model to allow users to communicate in sign language to others who cannot understand it.
+A CNN model that can predict ASL letters to up to 98% accuracy on unseen data. This is compared to the YOLOv5 object detection algorithm that can detect ASL letters to up to 86% accuracy. This project also includes code to load the YOLOv5 model using pytorch and allow real time detections using a webcam via the cv2 library.
+
+The dataset used to train the YOLOv5 model can be found here:
+https://public.roboflow.com/object-detection/american-sign-language-letters
+
+The dataset used to train the CNN model can be found here:
+https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+
