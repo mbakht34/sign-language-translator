@@ -7,3 +7,5 @@ https://public.roboflow.com/object-detection/american-sign-language-letters
 The dataset used to train the CNN model can be found here:
 https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
+The test.h5 file if the highest accuracy CNN model and the best.pt is the highest YOLOv5 accuracy model.
+
